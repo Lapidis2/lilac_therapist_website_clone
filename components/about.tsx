@@ -5,7 +5,7 @@ export function About() {
     <section id="about" className="bg-card py-20 lg:py-32" aria-labelledby="about-heading">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-20">
-          {/* Image */}
+       
           <div className="relative flex-1">
             <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden rounded-[60px]">
               <Image
@@ -17,12 +17,12 @@ export function About() {
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            {/* Decorative elements */}
+         
             <div className="absolute -right-4 -top-4 h-32 w-32 rounded-full border-2 border-accent" aria-hidden="true" />
             <div className="absolute -bottom-4 -left-4 h-20 w-20 rounded-full bg-secondary" aria-hidden="true" />
           </div>
 
-          {/* Content */}
+         
           <div className="flex-1 text-center lg:text-left">
             <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
               About Me
@@ -70,7 +70,7 @@ export function About() {
               </p>
             </div>
 
-            {/* Credentials */}
+         
             <div className="mt-8 flex flex-wrap items-center justify-center gap-6 lg:justify-start" role="list" aria-label="Credentials">
               <div className="text-center lg:text-left" role="listitem">
                 <p className="font-serif text-2xl font-medium text-foreground">PsyD</p>
