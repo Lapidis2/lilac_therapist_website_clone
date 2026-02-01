@@ -11,13 +11,13 @@ export function Hero() {
       className="relative min-h-screen overflow-hidden bg-background pt-20"
       aria-labelledby="hero-heading"
     >
-      {/* Decorative organic shape */}
+     
       <div className="absolute right-0 top-0 h-[80%] w-[60%] overflow-hidden" aria-hidden="true">
-        <div className="absolute -right-20 -top-20 h-[120%] w-[100%] rounded-bl-[40%] rounded-tl-[60%] bg-secondary" />
+        <div className="absolute -right-20 -top-20 h-[120%] w-full rounded-bl-[40%] rounded-tl-[60%] bg-secondary" />
       </div>
 
       <div className="relative mx-auto flex min-h-[calc(100vh-80px)] max-w-6xl flex-col items-center gap-12 px-6 py-16 lg:flex-row lg:gap-16 lg:py-24">
-        {/* Text Content */}
+      
         <div className="z-10 flex-1 text-center lg:text-left">
           <p className="mb-4 text-sm font-medium uppercase tracking-widest text-primary">
             Licensed Psychologist in Santa Monica
@@ -26,9 +26,9 @@ export function Hero() {
             id="hero-heading"
             className="mb-6 font-serif text-4xl font-medium leading-tight text-foreground md:text-5xl lg:text-6xl"
           >
-            <span className="text-balance">Your Santa Monica Therapist for</span>
+            <span className="text-balance">Your Santa Monica Therapist for
             <br />
-            <span className="relative inline-block">
+           
               healing
               <svg
                 className="absolute -bottom-2 left-0 w-full"
@@ -71,9 +71,9 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Hero Image */}
+      
         <div className="relative z-10 flex-1">
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-tl-[100px] rounded-br-[100px] rounded-tr-[20px] rounded-bl-[20px] shadow-2xl">
+          <div className="relative mx-auto aspect-3/4 w-full max-w-md overflow-hidden rounded-tl-[100px] rounded-br-[100px] rounded-tr-[20px] rounded-bl-[20px] shadow-2xl">
             <Image
               src="/images/dr-maya-hero.jpg"
               alt="Dr. Maya Reynolds, PsyD - Licensed Psychologist specializing in anxiety therapy, trauma counseling, and burnout support in Santa Monica, California"
@@ -83,12 +83,11 @@ export function Hero() {
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
-          {/* Floating accent shape */}
+        
           <div className="absolute -bottom-6 -left-6 h-24 w-24 rounded-full bg-accent/50" aria-hidden="true" />
         </div>
       </div>
 
-      {/* Bottom wave */}
       <div className="absolute bottom-0 left-0 right-0" aria-hidden="true">
         <svg
           viewBox="0 0 1440 120"
