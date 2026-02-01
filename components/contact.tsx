@@ -176,7 +176,7 @@ export function Contact() {
               <h3 className="mb-6 font-serif text-2xl font-medium text-foreground">Contact Information</h3>
               <address className="space-y-6 not-italic">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-card" aria-hidden="true">
+                  <div className="flex h-10 w-11 shrink-0 items-center justify-center rounded-full bg-card" aria-hidden="true">
                     <MapPin className="h-5 w-5 text-primary" />
                   </div>
                   <div>
