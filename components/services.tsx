@@ -27,7 +27,7 @@ const services = [
 export function Services() {
   return (
     <section id="services" className="relative overflow-hidden bg-secondary py-20 lg:py-32" aria-labelledby="services-heading">
-      {/* Decorative shape */}
+
       <div className="absolute -left-20 top-1/2 h-80 w-80 -translate-y-1/2 rounded-full bg-accent/30" aria-hidden="true" />
 
       <div className="relative mx-auto max-w-6xl px-6">
@@ -40,23 +40,9 @@ export function Services() {
             className="mx-auto max-w-2xl font-serif text-3xl font-medium text-foreground md:text-4xl lg:text-5xl"
           >
             <span className="text-balance">Services tailored to your</span>{" "}
-            <span className="relative inline-block">
+        
               unique needs
-              <svg
-                className="absolute -bottom-1 left-0 w-full"
-                viewBox="0 0 200 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <path
-                  d="M2 6C40 2 100 2 140 4C170 5 180 6 198 4"
-                  stroke="#7a9e7e"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </span>
+          
           </h2>
         </div>
 
