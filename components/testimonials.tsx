@@ -40,7 +40,7 @@ export function Testimonials() {
 
         <div className="grid gap-8 md:grid-cols-3" role="list">
           {testimonials.map((testimonial, index) => (
-            <blockquote key={index} className="relative rounded-3xl bg-card p-8 shadow-lg" role="listitem">
+            <blockquote key={index} className="relative rounded-3xl bg-card p-8 shadow-lg transition-transform duration-300 ease-out hover:scale-105" role="listitem">
               <Quote className="mb-4 h-8 w-8 text-accent" aria-hidden="true" />
               <p className="mb-6 leading-relaxed text-muted-foreground">{`"${testimonial.quote}"`}</p>
               <footer className="border-t border-border pt-4">
