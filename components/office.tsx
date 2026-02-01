@@ -62,7 +62,7 @@ export function Office() {
                 index === 0 ? "md:col-span-2 md:row-span-2" : ""
               }`}
             >
-              <div className={`relative ${index === 0 ? "aspect-[4/3] md:aspect-square" : "aspect-[4/3]"}`}>
+              <div className={`relative ${index === 0 ? "aspect-4/3 md:aspect-square" : "aspect-4/3"}`}>
                 <Image
                   src={image.src || "/placeholder.svg"}
                   alt={image.alt}
@@ -76,7 +76,6 @@ export function Office() {
           ))}
         </div>
 
-        {/* Session Types */}
         <div className="mt-12 flex flex-col items-center justify-center gap-8 md:flex-row" role="list" aria-label="Available session types">
           <div className="flex items-center gap-3 rounded-full bg-card px-6 py-3 shadow-sm" role="listitem">
             <div className="h-3 w-3 rounded-full bg-primary" aria-hidden="true" />
