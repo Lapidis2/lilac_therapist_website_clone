@@ -47,7 +47,7 @@ export function Header() {
             Dr. Maya Reynolds
           </Link>
 
-          {/* Desktop Navigation */}
+        
           <div className="hidden items-center gap-8 md:flex">
             {navItems.map((item) => (
               <button
