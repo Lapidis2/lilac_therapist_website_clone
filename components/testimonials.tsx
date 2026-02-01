@@ -24,7 +24,7 @@ const testimonials = [
 export function Testimonials() {
   return (
     <section className="relative overflow-hidden bg-primary py-20 lg:py-32" aria-labelledby="testimonials-heading">
-      {/* Decorative elements */}
+    
       <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-accent/20" aria-hidden="true" />
       <div className="absolute bottom-0 left-0 h-48 w-48 rounded-full bg-accent/10" aria-hidden="true" />
 
