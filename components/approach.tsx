@@ -55,23 +55,9 @@ export function Approach() {
             >
               <span className="text-balance">Evidence-based methods,</span>
               <br />
-              <span className="relative inline-block">
+            
                 personalized care
-                <svg
-                  className="absolute -bottom-1 left-0 w-full"
-                  viewBox="0 0 240 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M2 6C50 2 120 2 180 4C210 5 220 6 238 4"
-                    stroke="#c9a87c"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </span>
+             
             </h2>
             <p className="mb-8 text-center leading-relaxed text-muted-foreground lg:text-left">
               I draw from multiple therapeutic modalities to create a customized approach
