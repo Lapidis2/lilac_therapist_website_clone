@@ -68,7 +68,7 @@ export function Header() {
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
+          
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-foreground md:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
