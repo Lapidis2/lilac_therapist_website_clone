@@ -50,7 +50,7 @@ export function Services() {
           {services.map((service, index) => (
             <article
               key={index}
-              className="group rounded-3xl bg-card p-8 shadow-sm transition-all hover:shadow-md lg:p-10"
+              className="group rounded-3xl bg-card p-8 shadow-sm transition-transform duration-300 ease-out hover:scale-105 lg:p-10"
               role="listitem"
             >
               <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-secondary" aria-hidden="true">
