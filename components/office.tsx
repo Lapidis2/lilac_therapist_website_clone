@@ -53,7 +53,7 @@ export function Office() {
           </p>
         </div>
 
-        {/* Image Grid */}
+    
         <div className="grid gap-6 md:grid-cols-3">
           {officeImages.map((image, index) => (
             <figure
