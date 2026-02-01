@@ -12,7 +12,7 @@ export function Contact() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
+    
     await new Promise((resolve) => setTimeout(resolve, 1000));
     setIsSubmitting(false);
     setSubmitted(true);
@@ -56,10 +56,10 @@ export function Contact() {
         </div>
 
         <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
-          {/* Contact Form */}
+        
           <div className="flex-1">
             {submitted ? (
-              <div className="flex h-full min-h-[400px] flex-col items-center justify-center rounded-3xl bg-secondary p-8 text-center">
+              <div className="flex h-full min-h-100 flex-col items-center justify-center rounded-3xl bg-secondary p-8 text-center">
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary">
                   <svg
                     className="h-8 w-8 text-primary-foreground"
@@ -170,7 +170,7 @@ export function Contact() {
             )}
           </div>
 
-          {/* Contact Info */}
+     
           <aside className="flex-1 lg:max-w-sm">
             <div className="rounded-3xl bg-secondary p-8 lg:p-10">
               <h3 className="mb-6 font-serif text-2xl font-medium text-foreground">Contact Information</h3>
