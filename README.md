@@ -9,7 +9,7 @@ The goal of this assignment was to accurately **clone a homepage**, then **redes
 
 ##  Live Demo & Resources
 
-- **Live Website:** [Deployed Link Here]
+- **Live Website:** https://lilac-therapist-website.vercel.app/
 - **Original Template:** https://lilac-template.squarespace.com/  
 
 
