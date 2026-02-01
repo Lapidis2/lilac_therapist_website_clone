@@ -80,7 +80,6 @@ export function Header() {
           </button>
         </nav>
 
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="mt-4 flex flex-col gap-4 pb-4 md:hidden" aria-label="Mobile navigation">
             {navItems.map((item) => (
