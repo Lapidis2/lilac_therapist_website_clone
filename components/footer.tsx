@@ -49,7 +49,7 @@ export function Footer() {
                 Privacy Policy
               </Link>
               <Link href="/terms" className="transition-colors hover:text-background">
-                Terms of Service
+                Terms of Service.
               </Link>
             </div>
           </div>
