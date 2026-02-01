@@ -25,9 +25,9 @@ export function Approach() {
     <section id="approach" className="bg-card py-20 lg:py-32" aria-labelledby="approach-heading">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center gap-12 lg:flex-row-reverse lg:gap-20">
-          {/* Image */}
+     
           <div className="relative flex-1">
-            <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-tl-[80px] rounded-br-[80px]">
+            <div className="relative mx-auto aspect-4/5 w-full max-w-md overflow-hidden rounded-tl-[80px] rounded-br-[80px]">
               <Image
                 src="/images/office-therapy-room.jpg"
                 alt="Peaceful and calming therapy space at Dr. Maya Reynolds' Santa Monica office"
@@ -37,14 +37,14 @@ export function Approach() {
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            {/* Floating card */}
+  
             <div className="absolute -bottom-6 -left-6 rounded-2xl bg-primary p-6 text-primary-foreground shadow-xl lg:-left-12">
               <p className="font-serif text-3xl font-medium">100%</p>
               <p className="text-sm opacity-90">Confidential</p>
             </div>
           </div>
 
-          {/* Content */}
+
           <div className="flex-1">
             <p className="mb-3 text-center text-sm font-medium uppercase tracking-widest text-primary lg:text-left">
               My Approach
