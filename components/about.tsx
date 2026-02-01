@@ -33,23 +33,9 @@ export function About() {
             >
               <span className="text-balance">Warm, collaborative</span>
               <br />
-              <span className="relative inline-block">
+              
                 therapy that works
-                <svg
-                  className="absolute -bottom-1 left-0 w-full"
-                  viewBox="0 0 280 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M2 6C60 2 140 2 200 4C240 5 260 6 278 4"
-                    stroke="#c9a87c"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </span>
+              
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p className="leading-relaxed">
